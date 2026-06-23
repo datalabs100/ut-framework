@@ -1,0 +1,14 @@
+environment: DEV
+
+snowflake:
+  account: hj31616.ap-southeast-1
+  user: mohammed88
+  password: Datalabs@193001
+  warehouse: COMPUTE_WH
+  database: DEV
+  schema: DATASCIENCE
+  role: ACCOUNTADMIN
+
+files:
+  excel_path: user/input/ut_input.xlsx
+  output_path: user/output/ut_output.xlsx
