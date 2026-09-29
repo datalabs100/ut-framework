@@ -1,8 +1,8 @@
 environment: DEV
 
 snowflake:
-  account: hj31616.ap-southeast-1
-  user: mohammed88
+  account: ns97231.ap-southeast-1
+  user: alis22
   password: Datalabs@193001
   warehouse: COMPUTE_WH
   database: DEV

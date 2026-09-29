@@ -24,7 +24,8 @@ def show_template():
     print("TC008 : insert_validation")
     print("TC009 : update_validation")
     print("TC010 : delete_validation")
-
+    print("TC011 : row_count")
+    
     print("\nOnly these columns can be modified:")
     print("1. Source_table")
     print("2. Target_table")
@@ -91,7 +92,8 @@ def validate_metadata(df):
         "TC007": "special_character_validation",
         "TC008": "insert_validation",
         "TC009": "update_validation",
-        "TC010": "delete_validation"
+        "TC010": "delete_validation",
+        "TC011": "row_count"
     }
 
     # =====================================================
