@@ -1,0 +1,33 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment / secrets
+.env
+*.env
+
+# Snowflake / credentials
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+
+# Excel output
+user/output/
+
+# Temporary files
+tmp/
+temp/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
