@@ -1,14 +1,5 @@
 environment: DEV
 
-snowflake:
-  account: ns97231.ap-southeast-1
-  user: alis22
-  password: Datalabs@193001
-  warehouse: COMPUTE_WH
-  database: DEV
-  schema: DATASCIENCE
-  role: ACCOUNTADMIN
-
 files:
   excel_path: user/input/ut_input.xlsx
   output_path: user/output/ut_output.xlsx
