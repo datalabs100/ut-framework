@@ -1,3 +1,10 @@
+#It should work for Admin 
+#Check for different types of users 
+# 1. Super Admin - Zubair 
+# 2. Devops guy -Who has AWS access and login - Admin one can change and view secret keys  
+# 2. Development team - AWS Abstract users who has access but not full access - Normal users 
+# 4. Testing team - Does the need to access to AWS to run the framework by bypassing all access  ?
+# rename this file to Connection_setup.py 
 import json
 import boto3
 

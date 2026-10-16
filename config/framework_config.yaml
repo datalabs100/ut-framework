@@ -1,5 +1,0 @@
-environment: DEV
-
-files:
-  excel_path: user/input/ut_input.xlsx
-  output_path: user/output/ut_output.xlsx
