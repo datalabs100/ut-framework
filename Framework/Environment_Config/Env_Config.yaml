@@ -1,8 +1,7 @@
 #Test for TEST and Prod env 
-#Rename to Env_Config.yaml (Environment and configuration file )
 
 environment: DEV
 
 files:
-  User_Testcases: user/input/Testcases.xlsx
-  UT_Results: user/output/Testresults.xlsx
+  User_Testcases: ../user/input/Testcases.xlsx
+  UT_Results: ../user/output/Testresults.xlsx

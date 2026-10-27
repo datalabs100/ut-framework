@@ -1,8 +1,7 @@
-from engine.config_reader import read_config
-from engine.connection_manager import create_session
-from engine.excel_reader import read_excel_file
-from engine.metadata_validator import validate_metadata
-from engine.query_builder import build_test_query
+from Processing.Input_reader import read_config, read_excel_file
+from Environment_Config.Connection_setup import create_session
+from Processing.metadata_processing import validate_metadata
+from Processing.query_builder import build_test_query
 
 
 # =====================================================
@@ -10,7 +9,7 @@ from engine.query_builder import build_test_query
 # =====================================================
 
 config = read_config(
-    "config/framework_config.yaml"
+    "Environment_Config/Env_Config.yaml"
 )
 
 print("\nConfiguration read Successfully")
@@ -43,7 +42,7 @@ try:
     # READ EXCEL FILE
     # -------------------------------------------------
 
-    excel_path = config["files"]["excel_path"]
+    excel_path = config["files"]["User_Testcases"]
 
     df = read_excel_file(excel_path)
 
